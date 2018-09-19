@@ -1,0 +1,77 @@
+/* Style Sheet for Web Development Skills Page */
+
+/* Page Styles */
+html { 
+    background-color: rgb(80, 80, 80);
+}
+
+body {
+    width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 10px 100px;
+}
+
+
+div {
+    border: 1px solid green;
+    width: 600px;
+    margin: auto;
+}
+
+
+
+/* Text Styls */
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+}
+h1 {
+   border: 2px solid green;
+   text-align:center;
+   width:800px;
+   padding:20px 0;
+   margin-left:100px;
+}
+
+h2 {
+    font-variant: small-caps;
+}
+
+p, ul { 
+    font-family: 'Open Sans', sans-serif;;
+    letter-spacing: 0.5px; 
+}   
+
+span {
+    font-family: Papyrus;  
+} 
+
+
+/* Toutorial Notes */
+.tutorial {
+    font-size: 12px;
+} 
+
+/* Section Headers */
+.html {
+       color: #E44D26;
+} 
+
+.js {
+    color: #F7DF1E
+}
+
+.css {
+    color: rgb(1, 112, 186);
+} 
+
+/*Link Style */
+a {
+    color:#0000cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
